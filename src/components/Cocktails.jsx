@@ -5,6 +5,7 @@ import gsap from "gsap";
 
 const Cocktails = () => {
   useGSAP(() => {
+    
     const parallaxTimeline = gsap.timeline({
       scrollTrigger: {
         trigger: "#cocktails",
